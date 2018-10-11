@@ -1,3 +1,28 @@
-.navbar-brand {
-    padding:1%;
+body {
+    background-color:#3b4047;
+    color: white;
+}
+
+.navbar {
+    border-bottom: 1px solid #cbd0d8;
+}
+
+.nav-item {
+    margin: 0 10px;
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.nav-item:hover {
+    background-color:darkgreen;
+    color: white;
+}
+
+.nav-color {
+    white: white;
+}
+
+.itens {
+    background-color:#2b2e33;
 }
