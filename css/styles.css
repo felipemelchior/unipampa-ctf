@@ -1,28 +1,196 @@
-body {
-    background-color:#3b4047;
+.nav-link {
+    margin: 0 8px;
+}
+
+.nav-link:hover {
+    color: #1fc44e !important;
+}
+
+.box-fix {
+    position: relative;
+    top: 0px;
+}
+
+.img-thumbnail {
+    transition: 0.6s;
+}
+
+.img-thumbnail:hover {
+    height: auto;
+    width: 300px;
+    box-shadow: 10px 10px 5px #1fc44e;
+}
+
+nav .form, ul, li {
+    background: #343a40 !important;
+}
+
+section.bg-top {
+    width: 100%;
+    height: 500px;
+    min-width: 500px;
+    background-image: url("../images/bckdesec.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+section.bg-top h2 {
+    font-size: 26px;
+}
+
+section.bg-top p {
+    font-size: 18px;
+}
+
+.overlay {
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;     
+    top: 0;
+    background: rgba(30,30,30,0.8)
+}
+
+.fix-zindex {
+    position: relative;
+    z-index: 2;   
+}
+
+.texto-bg {
+    display: inline-block;
+    color: white;
+    padding: 140px 0;
+}
+
+.padding30 {
+    text-align: justify;
+    padding-right: 30px;
+}
+
+section.separator {
+    padding: 7px 0;
+    background: #1fc44e;
+}
+
+section.separator h2 {
+    color: white;
+    font-size: 38px;
+}
+
+section.group-itens {
+    padding: 30px 0;
+    background: rgb(235,235,235);
+}
+
+section.group-itens h2 {
+    padding: 10px;
+    font-size: 30px;
+    border-bottom: 1px dotted black;
+}
+
+section.group-itens i {
+    font-size: 40px;
+}
+
+section.group-itens .col-md-4{
+    padding: 0 10px;
+    color: #646464;
+}
+
+.custom-title {
+    position: relative;
+}
+
+.custom-title div {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50px;
+    height: 4px;
+    background: #1fc44e;
+}
+
+.custom-title h2 {
+    color: rgb(49, 49, 49);
+    font-size: 26px;   
+}
+
+section.group-itens .custom-title h2 {
+    border: 0;
+}
+
+section.localization {
+    padding: 30px;
+    color: rgb(49,49,49);
+}
+
+section.localization h2 {
+    padding: 10px;
+}
+
+section.localization .col-md-4 h2 {
+    margin: 10px 0;
+    font-size: 40px;
+    color: #646464;
+}
+
+section.localization p {
+    padding: 15px 15px;
+    font-size: 18px;
+}   
+
+section.convite {
+    margin-top: 30px;
+    padding: 15px 0;
+    background:#1fc44e;
+}
+
+section.convite .row {
+    margin-top: 10px;
+}
+
+section.convite h2 {
     color: white;
 }
 
-.navbar {
-    border-bottom: 1px solid #cbd0d8;
-}
-
-.nav-item {
-    margin: 0 10px;
-    font-weight: bold;
-    border: 1px solid white;
-    border-radius: 20px;
-}
-
-.nav-item:hover {
-    background-color:darkgreen;
+footer {
+    background: #343a40;
+    padding: 30px 0;
     color: white;
 }
 
-.nav-color {
-    white: white;
+footer ul {
+    margin-top: 25px;
 }
 
-.itens {
-    background-color:#2b2e33;
+footer li {
+    padding: 0 5px;
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: #1fc44e;
+}
+
+section.rodape {
+    padding: 7px 0;
+    background: #2c3238;
+}
+
+section.rodape p {
+    color: white;
+    margin: 3px 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .nav-link {
+        border-bottom: 1px dotted black;
+        margin:0;
+    }
 }
